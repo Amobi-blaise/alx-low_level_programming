@@ -1,8 +1,15 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - prints "whether the number stored in the variable is positive or negative"
+ */
 
-int main()
+int main(void)
 {
-	int n
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2
 
 	if( n > 0){
 		printf("n is positive\n");
@@ -12,6 +19,5 @@ int main()
 	}
 	else {
 		printf("n is negative\n");
-	return 0
-
+	return (0)
 }
