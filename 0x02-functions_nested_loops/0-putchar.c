@@ -5,7 +5,6 @@
  * return 0
  **/
 int main(void)
-
 {
 	char ermias[] = "_putchar";
 
