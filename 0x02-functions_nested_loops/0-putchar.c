@@ -15,6 +15,6 @@ int main(void)
 	{
 		_putchar(ermias[c]);
 	}
-	_putchar('\n');	
+	_putchar('\n');
 	return (0);
 }
