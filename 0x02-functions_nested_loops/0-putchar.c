@@ -13,7 +13,6 @@ int main(void)
 	for (c = 0; c < 8; c++)
 	{
 		_putchar(ermias[c]);
-		return (0)
 	}
 	_putchar('\n');
 	return (0);
