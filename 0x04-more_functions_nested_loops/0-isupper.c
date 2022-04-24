@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - checks for uppercase
+ * _isupper - checks uppercase
  * @c: print int
- * Return: 1 if uppercase; 0 otherwise
+ * Return: give 1 or 0
  */
 int _isupper(int c)
 {
