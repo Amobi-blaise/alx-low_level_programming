@@ -1,20 +1,32 @@
 #include <stdio.h>
-/**
- * main - prints "whether the number stored in the variable is positive or negative"
- */
 
+/**
+ * main - prints the numbers from 00 to 99
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-	int n;
+	int c, i;
 
+	c = i + '0';
 
-	if( n > 0){
-		printf("n is positive\n");
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			putchar(c);
+			putchar(i);
+
+			if ((c != '9') || (c == '9' && i != '9'))
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-	if( n == 0){
-		printf("n is zero\n");
-	}
-	if {
-		printf("n is negative\n");
-	return (0)
+
+	putchar('\n');
+
+	return (0);
 }
